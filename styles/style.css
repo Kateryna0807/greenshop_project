@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+.auth-links a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+.auth-links a+a {
+    color: #46A358;
+}
+
+.enter-data {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+input {
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #A5A5A5;
+    padding-top: 12px;
+    padding-left: 14px;
+}
+
+.button {
+    background-color: #46A358;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 45px;
+}
+
+.choice {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+
+.register-with a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #727272;
+    text-decoration: none;
+}
