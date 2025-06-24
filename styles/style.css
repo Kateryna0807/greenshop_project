@@ -7,6 +7,9 @@
 
 .header {
     font-size: 0;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);     
+    padding: 20px 0;
+    margin-bottom: 17px;
 }
 
 .container {
@@ -35,6 +38,11 @@
 .header_menu a {
     text-decoration: none;
     color: #3D3D3D;
+}
+
+.header_menu a.active {
+    border-bottom: 2px solid #46A358;
+    font-weight: bold;
 }
 
 .header_login {
@@ -76,7 +84,7 @@
 
 .visual_text h1 {
     font-size: 70px;
-    color: 70px;
+    color: #3D3D3D;
     text-transform: uppercase;
     font-weight: 900;
 }
@@ -101,6 +109,12 @@
     display: inline-block;
     width: 140px;
     padding: 11px;
+    border: 2px solid #46A358;
+}
+
+.visual_text a:hover {
+    color: #46A358;
+    background: #FFFFFF;
 }
 
 .visual_img {
