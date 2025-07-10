@@ -22,6 +22,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
     font-family: 'Cera Pro', sans-serif;
@@ -122,6 +130,7 @@ body {
 
 .green {
     color: #46A358;
+    font-weight: 700;
 }
 
 .visual_text p {
@@ -197,17 +206,21 @@ body {
     float: right;
 }
 
-.nav_small li {
-    float: left;
-    margin: 37px;
-    list-style: none;
+.nav_small::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .nav_small li a {
     text-decoration: none;
     font-size: 15px;
     color: rgba(61, 61, 61, 1);
-    display: inline-block;
+}
+
+.nav_small {
+    list-style: none;
+    float: left;
 }
 
 .panel_list {
@@ -243,7 +256,7 @@ body {
 
 .product_card {
   display: inline-block;
-  width: 25%;
+  width: 33%;
   vertical-align: top;
   padding: 10px;
   font-size: 14px;
@@ -262,7 +275,7 @@ body {
 
 .select_page li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .select_page li a {
@@ -274,10 +287,17 @@ body {
     border-radius: 4px;
 }
 
+.select_page li a:hover {
+    background-color: rgba(70, 163, 88, 1);
+    border-color: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
 .select_page li a.active_page {
     background-color: rgba(70, 163, 88, 1);
     border-color: rgba(70, 163, 88, 1);
     color: rgba(255, 255, 255, 1);
+    font-weight: 900;
 }
 
 .select_page {
