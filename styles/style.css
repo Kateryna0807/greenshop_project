@@ -328,7 +328,6 @@ body {
     gap: 28px;
     align-items: center;
     margin-top: 69px;
-    padding: 0 120px;
     margin-bottom: 138px;
 }
 
@@ -338,6 +337,10 @@ body {
     gap: 20px;
     background-color: rgba(251, 251, 251, 1);
     width: 50%;
+}
+
+.cactus {
+    margin-top: -20px;
 }
 
 .block_text_inside {
