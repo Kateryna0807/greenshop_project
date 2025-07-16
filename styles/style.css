@@ -30,6 +30,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     margin: 0;
     font-family: 'Cera Pro', sans-serif;
@@ -313,6 +321,112 @@ body {
 }
 /* end_block_main_products */
 
+/* block_blog */
+.block3 {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    align-items: center;
+    margin-top: 69px;
+    margin-bottom: 138px;
+}
+
+.block_inside {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(251, 251, 251, 1);
+    width: 50%;
+}
+
+.cactus {
+    margin-top: -20px;
+}
+
+.block_text_inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.block_text_inside h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.block_text_inside a {
+    color: #FFFFFF;
+    background: #46A358;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    width: 140px;
+    padding: 11px;
+    border: 2px solid #46A358;
+    font-weight: 500;
+}
+
+.block_text_inside a:hover {
+    color: #46A358;
+    background: #FFFFFF;
+}
+
+.block4_h {
+    text-align: center;
+}
+
+.block4_h h2 {
+    margin-bottom: 15px;
+}
+
+.block4_h p {
+    margin: 0;
+}
+
+.blog_cards {
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.block4_blog {
+    width: 25%;
+}
+
+.block4_content time {
+    color: rgba(70, 163, 88, 1);
+    font-weight: 500;
+}
+
+.block4_content h3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.block4_content p {
+    color: rgba(114, 114, 114, 1);
+}
+
+.block4_content a {
+    font-weight: 500;
+    color: rgba(61, 61, 61, 1);
+    text-decoration: none;
+}
+
+.green2 {
+    font-weight: 500;
+    color: rgba(70, 163, 88, 1);
+}
+
+.block4_content time:hover {
+    color: black;
+}
+
+/* end_block_blog */
+
 /* style_for_registration */
 .auth-links a {
     font-size: 20px;
@@ -323,10 +437,6 @@ body {
 
 .auth-links a+a {
     color: #46A358;
-}
-
-.enter-data {
-    font-size: 13px;
     font-weight: 400;
     color: #3D3D3D;
 }
