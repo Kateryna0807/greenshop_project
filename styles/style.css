@@ -560,6 +560,162 @@ body {
 
 /* end_block_blog */
 
+/* footer */
+.footer_line1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+    background: rgba(251, 251, 251, 1);
+}
+
+.footer_list {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 40px;
+}
+
+.footer_list li { 
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 90px 5px 5px;
+}
+
+.footer_line1 h2 {
+    font-size: 17px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.footer_line1 p {
+    color: rgba(114, 114, 114, 1);
+}
+
+.footer_line1 form {
+    max-width: 400px;
+    margin-left: 62px;
+}
+
+.footer_list li+li::after {
+    content: "";
+    width: 1px;
+    background: rgba(70, 163, 88, 0.1);
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: -35px;
+}
+
+.footer_list li:nth-child(1) {
+    background-image: url(../images/bg1.svg); 
+}
+
+.footer_list li:nth-child(2) {
+    background-image: url(../images/bg2.svg); 
+}
+
+.footer_list li:nth-child(3) {
+    background-image: url(../images/bg3.svg); 
+}
+
+.user_address {
+    display: flex;
+}
+
+.user_address input {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+    padding-top: 0;
+    border-radius: 6px 0 0 6px;
+}
+
+.user_address button {
+    background-color: rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 0 6px 6px 0;
+    width: 85px;
+    height: 40px;
+    text-align: center;
+}
+
+.user_address button:hover {
+    background: #fff;
+    color: rgba(70, 163, 88, 1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+}
+
+.footer_bg {
+    display: flex;
+    align-items: center;
+    padding-left: 23px;
+    margin-top: 20px;
+    width: 1200px;
+    height: 88px;
+    background: linear-gradient(to right, rgba(237, 246, 239, 1), rgba(82, 195, 104, 1));
+}
+
+.bg_contacts {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 155px;
+    margin-left: 155px;
+}
+
+.bg_contacts a {
+    text-decoration: none;
+    color: rgba(61, 61, 61, 1);
+}
+
+.bg_contacts li:nth-child(1) {
+    width: 176px;
+}
+
+.bg_contacts li a:hover {
+    color: #fff;
+}
+
+.footer_end {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 33px;
+    gap: 140px;
+    background: rgba(251, 251, 251, 1);
+    margin: 0;
+}
+
+.footer_end li {
+    list-style: none;
+}
+
+.footer_end li a:hover {
+    color:  rgba(70, 163, 88, 1);
+}
+
+.footer_end a {
+    text-decoration: none;
+    color: rgba(61, 61, 61, 1);
+    line-height: 30px;
+}
+
+.footer_end h2 {
+    color: rgba(61, 61, 61, 1);
+    font-size: 18px;
+}
+
+.account_f ul,
+.help_f ul,
+.categories_f ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+/* end_footer */
+
 /* style_for_registration */
 .auth-links a {
     font-size: 20px;
