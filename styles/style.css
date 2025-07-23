@@ -176,10 +176,6 @@ body {
     transform: rotate(45deg);
 }
 
-/*.nav_list > li:hover {
-    font-weight: 700;
-}*/
-
 .nav_list > li:hover:after {
     content: "";
     height: 3px;
