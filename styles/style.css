@@ -558,13 +558,16 @@ body {
     color: black;
 }
 
+.block4 {
+    margin-bottom: 100px;
+}
+
 /* end_block_blog */
 
 /* footer */
 .footer_line1 {
     display: flex;
     justify-content: flex-start;
-    margin-top: 100px;
     background: rgba(251, 251, 251, 1);
 }
 
@@ -649,9 +652,6 @@ body {
     display: flex;
     align-items: center;
     padding-left: 23px;
-    margin-top: 20px;
-    width: 1200px;
-    height: 88px;
     background: linear-gradient(to right, rgba(237, 246, 239, 1), rgba(82, 195, 104, 1));
 }
 
@@ -678,11 +678,10 @@ body {
 
 .footer_end {
     display: flex;
-    justify-content: flex-start;
     padding-top: 33px;
-    gap: 140px;
     background: rgba(251, 251, 251, 1);
     margin: 0;
+    gap: 100px;
 }
 
 .footer_end li {
@@ -704,14 +703,9 @@ body {
     font-size: 18px;
 }
 
-.account_f ul,
-.help_f ul,
-.categories_f ul {
-    display: flex;
-    flex-direction: column;
+.footer_list_end ul {
     margin: 0;
     padding: 0;
-    align-items: flex-start;
 }
 
 /* end_footer */
